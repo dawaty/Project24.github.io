@@ -1,0 +1,158 @@
+body{
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: aliceblue;
+    margin: 0 50px;
+    border-radius: 100px;
+    box-shadow: 10px;
+}
+
+nav .center ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+nav .center ul li{
+    list-style: none;
+}
+
+nav .center ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .left ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+nav .left ul li{
+    list-style: none;
+}
+
+nav .left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    margin: 15px 50px 0 50px;
+    padding: 20px 20px;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.596);
+    border-radius: 20px;
+
+    display: block;
+}
+
+.main .square{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    background-image: url(Background2.jpg);
+    border-radius: 20px;
+    height: 450px;
+    gap: 150px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: whitesmoke;
+}
+
+.main .square .profile{
+}
+
+.main .square .profile .point{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: orange;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+}
+
+.main .square .profile ul{
+    padding-top: 30px;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.main .square .profile ul li a button{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+
+.main .circle{
+    background-image: url(Astolfo2.gif);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.main .box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: auto;
+    font-weight: bold;
+}
+
+.main .box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: auto;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.main .box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: auto;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.main .box4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: auto;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
